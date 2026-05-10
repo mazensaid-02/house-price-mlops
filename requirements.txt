@@ -1,0 +1,20 @@
+# Data
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# Experiment tracking
+mlflow==2.13.0
+
+# Model serving
+bentoml==1.2.19
+
+# Monitoring
+evidently==0.4.30
+
+# Data versioning
+dvc==3.51.1
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.2

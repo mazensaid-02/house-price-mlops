@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+
+# Data (DVC will handle these)
+data/raw/
+data/processed/
+
+# MLflow
+mlflow/mlruns/
+
+# BentoML
+bentoml/bentos/
+
+# Environment
+.env
+
+# DVC
+.dvc/cache/
+
+# Jupyter
+.ipynb_checkpoints/
