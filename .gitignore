@@ -5,9 +5,9 @@ __pycache__/
 *.egg-info/
 .eggs/
 
-# Data (DVC will handle these)
-data/raw/
-data/processed/
+# Data (actual data files — DVC handles these)
+data/raw/*.csv
+data/processed/*.csv
 
 # MLflow
 mlflow/mlruns/
