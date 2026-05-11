@@ -1,0 +1,21 @@
+{
+  "train_rows": 16130,
+  "test_rows": 4033,
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude",
+    "RoomsPerHousehold",
+    "BedroomsRatio",
+    "PopulationPerHousehold",
+    "DistFromCenter"
+  ],
+  "target": "MedHouseVal",
+  "test_size": 0.2,
+  "random_state": 42
+}
