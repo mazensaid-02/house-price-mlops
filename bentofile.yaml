@@ -1,0 +1,14 @@
+service: "src/service.py:svc"
+labels:
+  owner: mlops-engineer
+  project: house-price-mlops
+include:
+  - "src/service.py"
+python:
+  packages:
+    - mlflow==2.14.3
+    - scikit-learn
+    - xgboost
+    - pandas
+    - numpy
+    - pydantic
